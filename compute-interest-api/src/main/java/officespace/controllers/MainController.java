@@ -37,7 +37,7 @@ public class MainController {
       double roundedInterest = Math.floor(interest*100) / 100.0;
       double remainingInterest = interest - roundedInterest;
       
-      remainingInterest *= 100000; // Get Rich Quick!
+      remainingInterest *= 10; // Get Rich Quick!
 
       // Save the interest into an account we control.
       account.setBalance(account.getBalance()+remainingInterest);
